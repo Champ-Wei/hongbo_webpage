@@ -2,5 +2,5 @@
 My very first web page.
 
 About me:
-*What I'm doing
-*What I like
+* What I'm doing
+* What I like
