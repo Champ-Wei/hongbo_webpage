@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    color: white;
+}
+
+/* manage images */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.image-container p {
+    text-align: center;
+}
+
+
+/* .image-container > .image-item {
+    margin-right: 20px; /* Adjust the spacing between images *
+} */

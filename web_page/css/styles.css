@@ -1,0 +1,82 @@
+/* Selector 1: Element Selector */
+body {
+    text-align: center;
+    background-image: url('../images/network.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    font-size: large;
+}
+
+main {
+    font-size: medium;
+}
+
+footer {
+    font-size: small;
+}
+
+/* .centered-list {
+    text-align: center;
+}
+
+.centered-list li {
+    list-style-position: inside;
+} */
+
+/* Selector 2: Class Selector */
+.vote {
+    color:azure;
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gold {
+    color: rgb(255, 215, 0);
+}
+
+td {
+    border: 2px solid white;
+}
+
+/* Selector 3: ID Selector */
+#add_like {
+    background-color: #de90b3;
+}
+
+#add_love {
+    background-color: #e3226c;
+}
+
+/* Selector 4: Descendant Selector */
+main ul li {
+    text-decoration: gold underline;;
+}
+
+/* Selector 5: Attribute Selector */
+a[target="_blank"] {
+    text-decoration: none;
+    color: gold;
+    border: 1pt dashed;
+}
+
+/* .btn_btn-primary {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} */
+
+/* .navbar li a{
+    color: #0000f0;
+} */
