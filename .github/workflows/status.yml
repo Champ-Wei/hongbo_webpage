@@ -14,5 +14,5 @@ jobs:
       - uses: actions/set-status@v1
         with:
           state: ${{ success ? 'success' : 'failing' }}
-          target: "https://github.com/${GITHUB_REPOSITORY}/actions/workflows/status.yml"
+          target: "https://github.com/hongbo-wei/hongbo-wei.github.io/actions/workflows/status.yml"
           description: "The status badge workflow has run successfully."
