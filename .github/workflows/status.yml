@@ -1,4 +1,4 @@
-name: Status badge
+name: Status
 on:
   push:
     branches:
@@ -8,8 +8,11 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
+      - run: |
+          echo "Building..."
+          npm run build
       - uses: actions/set-status@v1
         with:
-          state: "success"
-          target: "https://github.com/hongbo-wei/hongbo-wei.github.io/actions/workflows/status.yml"
+          state: ${{ success ? 'success' : 'failing' }}
+          target: "https://github.com/${GITHUB_REPOSITORY}/actions/workflows/status.yml"
           description: "The status badge workflow has run successfully."
