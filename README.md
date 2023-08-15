@@ -1,7 +1,6 @@
 # hongbo_webpage
 
-My very first web page.
-https://hongbo-wei.github.io/
+My very first web page: https://hongbo-wei.github.io
 
 About me:
 
