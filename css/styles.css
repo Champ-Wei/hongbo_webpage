@@ -146,3 +146,14 @@ a[target="_blank"] {
 .fa-heart {
     color: red;
 }
+
+/* mute button */
+.mute-button{
+    /* invert icon to white */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+#mute{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
