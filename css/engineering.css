@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+a {
+    color: wheat;
+}
+
 /* manage images */
 .image-container {
     display: flex;
