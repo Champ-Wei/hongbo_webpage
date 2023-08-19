@@ -85,17 +85,47 @@ nav > a {
     background-color: black;
 }
 
-/* .btn_btn-primary {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-} */
-
 /* .navbar li a{
     color: #0000f0;
 } */
+
+/* Social Links
+---------------------------------- */
+.social-links {
+	padding: 0;
+	list-style: none;
+	margin: 15px 0;
+}
+.social-links li {
+	margin: 10px 10px 10px 0;
+	display: inline-block;
+	font-size: 36px;
+}
+.social-links li a {
+	color: #BBBBBB;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	/* border: 1px solid #D0D0D0; */
+	width: 52px;
+	height: 52px;
+	display: inline-block;
+	border-radius: 50%;
+	font-size: 26px;
+	text-align: center;
+	padding: 4px;
+}
+.social-links li.twitter a:hover {
+	color: #55acee;
+}
+.social-links li.linkedin a:hover {
+	color: #0976b4;
+}
+.social-links li.youtube a:hover {
+	color: #b31217;
+}
+.social-links li.instagram a:hover {
+	color: #cb2027;
+}
