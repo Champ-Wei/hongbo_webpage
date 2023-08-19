@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#add_love').onclick = function() {
         love += 1;
         document.querySelector('#score_love').innerHTML = love;
-}
+    }
 });
 
 function blink() {

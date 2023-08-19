@@ -1,10 +1,10 @@
-/* Selector 1: Element Selector */
+/* Element Selector */
 body {
     text-align: center;
-    background-image: url('../images/network.jpg');
+    background-image: url('/images/AI_2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 header {
@@ -27,10 +27,9 @@ footer {
     list-style-position: inside;
 } */
 
-/* Selector 2: Class Selector */
+/* Class Selector --------------------------------------------------- */
 .vote {
-    color:azure;
-    border: 2px solid white;
+    color:#ffffff;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
@@ -41,29 +40,49 @@ footer {
     color: rgb(255, 215, 0);
 }
 
-td {
-    border: 2px solid white;
+.fa-thumbs-up {
+    color: #318CE7;
 }
 
-/* Selector 3: ID Selector */
-#add_like {
+.fa-heart {
+    color: red;
+}
+
+.remove {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* ID Selector --------------------------------------------------- */
+/* #add_like {
     background-color: #de90b3;
 }
 
 #add_love {
     background-color: #e3226c;
-}
+} */
 
-/* Selector 4: Descendant Selector */
+/* Descendant Selector */
 main ul li {
+    background-color: transparent;
     text-decoration: gold underline;;
 }
 
-/* Selector 5: Attribute Selector */
+/* Attribute Selector */
 a[target="_blank"] {
     text-decoration: none;
     color: gold;
     border: 1pt dashed;
+}
+
+nav > a {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#bio > a {
+    color: #ffffff;
+    background-color: black;
 }
 
 /* .btn_btn-primary {
