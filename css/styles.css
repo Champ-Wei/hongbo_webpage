@@ -1,4 +1,4 @@
-/* Element Selector */
+/* main --------------------------------------------------- */
 body {
     text-align: center;
     background-image: url('/images/AI_2.jpg');
@@ -19,75 +19,62 @@ footer {
     font-size: small;
 }
 
-/* .centered-list {
-    text-align: center;
-}
-
-.centered-list li {
-    list-style-position: inside;
-} */
-
-/* Class Selector --------------------------------------------------- */
-.vote {
-    color:#ffffff;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.gold {
-    color: rgb(255, 215, 0);
-}
-
-.fa-thumbs-up {
-    color: #318CE7;
-}
-
-.fa-heart {
-    color: red;
-}
-
 .remove {
     list-style-type: none;
     padding: 0;
 }
 
-/* ID Selector --------------------------------------------------- */
-/* #add_like {
-    background-color: #de90b3;
+/* Dropdown Button  --------------------------*/
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
 }
 
-#add_love {
-    background-color: #e3226c;
-} */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+}
 
-/* Descendant Selector */
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a.gold {
+    color: gold;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #008cff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Favorite music --------------------------- Descendant Selector */
 main ul li {
     background-color: transparent;
     text-decoration: gold underline;;
 }
-
-/* Attribute Selector */
-a[target="_blank"] {
-    text-decoration: none;
-    color: gold;
-    border: 1pt dashed;
-}
-
-nav > a {
-    color: #ffffff;
-    background-color: transparent;
-}
-
-#bio > a {
-    color: #ffffff;
-    background-color: black;
-}
-
-/* .navbar li a{
-    color: #0000f0;
-} */
 
 /* Social Links
 ---------------------------------- */
@@ -128,4 +115,34 @@ nav > a {
 }
 .social-links li.instagram a:hover {
 	color: #cb2027;
+}
+
+/* Surprise ------------------- Attribute Selector */
+a[target="_blank"] {
+    text-decoration: none;
+    color: gold;
+    padding: 4px 4px 4px 4px;
+    border: 1pt dashed;
+}
+
+#bio > a {
+    color: #ffffff;
+    background-color: black;
+}
+
+/* Vote --------------------------------------------------- */
+.vote {
+    color:#ffffff;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fa-thumbs-up {
+    color: #318CE7;
+}
+
+.fa-heart {
+    color: red;
 }
