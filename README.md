@@ -8,3 +8,7 @@ About me:
 - My boxing life
 - What I like
 - Keep Evolving
+
+## License
+
+[MIT](LICENSE.txt)
