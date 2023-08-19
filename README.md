@@ -11,4 +11,4 @@ About me:
 
 ## License
 
-[MIT](LICENSE.txt)
+[MIT](LICENSE.md)
