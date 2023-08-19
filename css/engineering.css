@@ -10,7 +10,7 @@ a {
 table th, table td{
     display: table-cell;
     vertical-align: middle;
- } 
+ }
 
 /* manage images */
 .image-container {
