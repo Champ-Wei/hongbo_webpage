@@ -2,12 +2,13 @@
 
 My very first web page: https://hongbo-wei.github.io
 
-About me:
+**About me:**
 
-- My career of a software engineer
+- My career as a software engineer
 - My boxing life
 - What I like
-- Keep Evolving
+
+### Keep learning!
 
 ## License
 
