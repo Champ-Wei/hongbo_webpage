@@ -108,17 +108,21 @@ main ul li {
 	text-align: center;
 	padding: 4px;
 }
-.social-links li.twitter a:hover {
-	color: #55acee;
+
+.social-links li.github a:hover {
+	color: #000;
+}
+.social-links li.instagram a:hover {
+	color: #cb2027;
 }
 .social-links li.linkedin a:hover {
 	color: #0976b4;
 }
+.social-links li.twitter a:hover {
+	color: #55acee;
+}
 .social-links li.youtube a:hover {
 	color: #b31217;
-}
-.social-links li.instagram a:hover {
-	color: #cb2027;
 }
 
 /* Surprise ------------------- Attribute Selector */
