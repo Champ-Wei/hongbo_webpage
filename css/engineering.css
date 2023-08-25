@@ -17,21 +17,15 @@ table th, table td{
 }
 
 /* manage images */
-.image-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.image-container img {
-    width: 150px; /* Adjust the width as needed */
+#projects img {
+    width: 400px; /* Adjust the width as needed */
     height: auto;
 }
 
-.image-container p {
-    text-align: center;
-}
 
+.space {
+	padding: 20px 0;
+}
 
 /* .image-container > .image-item {
     margin-right: 20px; /* Adjust the spacing between images *
