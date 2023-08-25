@@ -12,6 +12,10 @@ table th, table td{
     vertical-align: middle;
  }
 
+ table td:hover {
+    color: wheat;
+}
+
 /* manage images */
 .image-container {
     display: flex;
