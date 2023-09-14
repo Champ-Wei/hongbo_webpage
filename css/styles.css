@@ -75,9 +75,14 @@ footer a {
 }
 
 /* Favorite music --------------------------- Descendant Selector */
-main ul li {
+main > ul > li > a {
     background-color: transparent;
-    text-decoration: gold underline;;
+    text-decoration: gold underline;
+    color: white;
+}
+
+main > ul > li > a:hover {
+    color: gold;
 }
 
 /* Social Links
