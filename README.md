@@ -1,15 +1,7 @@
-# hongbo_webpage
+# Hongbo Wei's web portfolio
 
-My very first web page: https://hongbo-wei.github.io
+Hi there, my name is Hongbo.
+Welcome to my web porfolio.
 
-**About me:**
-
-- My career as a software engineer
-- My boxing life
-- What I like
-
-### Keep learning!
-
-## License
-
-[MIT](LICENSE.md)
+Credit: original source code: https://github.com/BuckyMaler/global
+Credit: modified from: https://github.com/ginny100/ginny100.github.io

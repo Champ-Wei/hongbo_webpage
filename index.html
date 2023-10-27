@@ -1,148 +1,270 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/styles.css" >
-		<link rel="icon" href="icons/dragon-logo.jpg" type="img/jpg" id="favicon">
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<script src="js/index.js"></script>
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <title>Hongbo Wei</title>
-    </head>
-    <body>
-		
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="index.html">
-				<img src="images/the_dragon.png" alt="Logo" width="23" height="22" class="d-inline-block align-text-top">
-				Champ Wei - The Dragon
-			</a>
 
-			<div class="dropdown">
-				<button class="dropbtn">Content</button>
-				<div class="dropdown-content">
-					<a href="engineering.html">Engineering</a>
-					<a href="boxing.html">Boxing Life</a>
-					<a href="surprise.html" class="gold">Surprise!</a>
-					<a href="about.html">About Me</a>
-				</div>
-			</div>
+<head>
+    <title>Hongbo Wei</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="I'm a newbie tech lover">
+    <meta name="keywords" content="python">
+    <meta name="author" content="Ginny Dang">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="assets/css/newcss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+</head>
 
-		</nav>
+<body>
 
-		<div class='container'>
-			<div class='position-relative row'>
-				
-				<div id='bio' class='col-12 col-lg-6 text-center text-white' >
-					<h1 id="me">Welcome to the webpage of Hongbo Wei</h1>
-					<h4>A software engineer</h4>
-					<h4>who loves learning lifelong.</h4>
-					<img src="images/cyberman.jpg" alt="The Dragon"
-					width="290" height="264" class='img-fluid'>
-				</div>
+    <!-- notification for small viewports and landscape oriented smartphones -->
+    <div class="device-notification">
+        <a class="device-notification--logo" href="#0">
+          <img src="assets/img/logo-black-circle.png" width="7%" alt="Hongbo">
+          <p>Hongbo</p>
+        </a>
+        <p class="device-notification--message">Hi, this is Hongbo Wei. Welcome to my portfolio website.</p>
+      </div>
 
-				<div id='favorite' class='col-12 col-lg-6 text-white'>
-					<main>
-						<h2>Favorite Music Artists</h2>
-						<ul class="centered-list remove">
-							<li><a href="https://www.lanadelrey.com/">Lana Del Rey</a></li>
-							<li><a href="https://www.instagram.com/iamhalsey/?hl=en">Halsey</a></li>
-							<li><a href="https://www.katebush.com/">Kate Bush</a></li>
-							<li><a href="https://hozier.com/">Hozier</a></li>
-							<li><a href="https://www.obylx.com/">Obylx</a></li>
-						</ul>
-						<h2>Favorite Films</h2>
-						<ol class="centered-list remove">
-							<li><a href="https://www.imdb.com/title/tt0075148/?ref_=fn_al_tt_1">Rocky</a></li>
-							<li><a href="https://www.imdb.com/title/tt0816692/?ref_=fn_al_tt_1">Interstellar</a></li>
-							<li><a href="https://www.imdb.com/title/tt0068646/?ref_=fn_al_tt_1">The Godfather</a></li>
-							<li><a href="https://www.imdb.com/title/tt0120737/?ref_=fn_al_tt_2">The Lord of the Rings</a></li>
-							<li><a href="https://www.imdb.com/title/tt0232500/?ref_=fn_al_tt_3">Fast and Furious</a></li>
-						</ol>
-					</main>
-				</div>
+    <div class="perspective effect-rotate-left">
+        <div class="container">
+            <div class="outer-nav--return"></div>
+            <div id="viewport" class="l-viewport">
+                <div class="l-wrapper">
+                    <header class="header">
+                        <a class="header--logo" href="#0">
+                            <img src="assets/img/logo-black-circle.png" width="7%" alt="Hongbo">
+                            <p>Hongbo Wei</p>
+                        </a>
+                        <button class="header--cta cta">Hire Me</button>
+                        <div class="header--nav-toggle">
+                            <span></span>
+                        </div>
+                        </header>
+                        <nav class="l-side-nav">
+                        <ul class="side-nav">
+                            <li class="is-active"><span>Home</span></li>
+                            <li><span>Personal Projects</span></li>
+                            <li><span>About</span></li>
+                            <li><span>Contact</span></li>
+                        </ul>
+                        </nav>
+                        <ul class="l-main-content main-content">
+                        <li class="l-section section section--is-active">
+                            <div class="intro">
+                            <div class="intro--banner">
+                                <h1>Hongbo Wei</h1>
+                                <h2>University of Birmingham Dubai</h2>
+                                <h3>MSc in Artificial Intelligence and Computer Science</h3>
+                                <h4>Full-Stack Developer</h4>
+                                <button class="cta">Hire Me
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;"
+                                            xml:space="preserve">
+                                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                                                <path
+                                                    d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
+                                            </g>
+                                        </svg>
+                                        <span class="btn-background"></span>
+                                    </button>
+                                    <div class="intro-image">
+                                        <div class="intro-circle"></div>
+                                        <div class="intro-img">
+                                            <img src="assets/img/introduction-visual.png" alt="Welcome">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="intro--options">
+                                    <a href="#0">
+                                      <h3>Character</h3>
+                                      <p>Confidence, perseverance, and self-discipline.</p>
+                                    </a>
+                                    <a href="#0">
+                                      <h3>Lifelong Learning</h3>
+                                      <p>With extensive experience in full-stack development, I have completed professional courses like CS50x from Harvard, Machine Learning Specialization from Stanford and DeepLearning.ai.</p>
+                                    </a>
+                                    <a href="#0">
+                                      <h3>Personal Projects</h3>
+                                      <p>As a full-stack developer, I have crafted personal websites, 2D games, and data analysis and visualisation projects.</p>
+                                    </a>
+                                  </div>
+                            </div>
+                        </li>
+                        <li class="l-section section">
+                            <div class="work">
+                                <h2>Personal Projects</h2>
+                                <div class="work--lockup">
+                                    <ul class="slider">
+                                        <!-- 1st project -->
+                                        <li class="slider--item slider--item-left">
+                                            <a href="https://github.com/hongbo-wei/cc-global-status"
+                                                target="_blank">
+                                                <div class="slider--item-image">
+                                                    <img src="assets/img/cc_data_visualization.png" alt="Global Status of CC Security Certification">
+                                                </div>
+                                                <p class="slider--item-title">Global Status of<br>CC Security Certification</p>
+                                                <p class="slider--item-description">A full-stack solution implemented in Python and MySQL to scrap and analyse Common Criteria data.</p>
+                                            </a>
+                                        </li>
+                                        <!-- 2nd project -->
+                                        <li class="slider--item slider--item-center">
+                                            <a href="https://www.boxinghub.org">
+                                              <div class="slider--item-image">
+                                                <img src="assets/img/boxinghub.png" alt="boxinghub">
+                                              </div>
+                                              <p class="slider--item-title">BoxingHub</p>
+                                              <p class="slider--item-description">A learning platform for boxing, which is a web app developed with Python (Flask), HTML, CSS, JavaScript, and SQLite.</p>
+                                            </a>
+                                        </li>
+                                        <!-- 3rd project -->
+                                        <li class="slider--item slider--item-right">
+                                            <a href="https://github.com/hongbo-wei/alien-invasion"
+                                                target="_blank">
+                                                <div class="slider--item-image">
+                                                    <img src="assets/img/alien_invasion.jpg"
+                                                        alt="Alien Invasion">
+                                                </div>
+                                                <p class="slider--item-title">Alien Invasion</p>
+                                                <p class="slider--item-description">A 2D video games based on Pygame and hosted on Replit.</p>
+                                            </a>
+                                        </li>
+                                        <!-- 4th project -->
+                                        <li class="slider--item slider--item-hidden">
+                                            <a href="https://scratch.mit.edu/projects/839093065/"
+                                                target="_blank">
+                                                <div class="slider--item-image">
+                                                    <img src="assets/img/scratch_game.png" alt="Black Dragon and Brave Knight">
+                                                </div>
+                                                <p class="slider--item-title">Black Dragon and Brave Knight</p>
+                                                <p class="slider--item-description">A 2D video game based on MIT Scratch. It is the starting point of gaming development for me.</p>
+                                            </a>
+                                        </li>
+                                        <!-- 5th project -->
+                                        <li class="slider--item slider--item-hidden">
+                                            <a href="https://github.com/hongbo-wei/cs50-finance"
+                                                target="_blank">
+                                                <div class="slider--item-image">
+                                                    <img src="assets/img/finance.jpg" alt="CS50 Finance">
+                                                </div>
+                                                <p class="slider--item-title">CS50 Finance</p>
+                                                <p class="slider--item-description">A web application that leverages the Yahoo Finance API to simulate stock trading, built with Python (Flask), HTML, CSS, JavaScript, and SQLite.</p>
+                                            </a>
+                                        </li>
 
-				<div class="col-12 col-lg-6 text-center">
+                                        <!-- <div class="plus">
+                                            <a href="#" class="bdr-ripple-ani-btn"><i class="fa fa-link"></i></a>
+                                            <div class="tooltip">
+                                                <p>Click Here</p>
+                                                <i class="fa fa-play"></i>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="bdr-ripple-ani-btn pink two"><i class="fa fa-cog"></i></a>
+                                        <div class="glow-shadow"></div> -->
 
-					<div  id="fun">
-						<p></p>
-						<form>
-							<input autocomplete="off" autofocus id="name" placeholder="Type your name" required type="text">
-							<button type="submit">Greet</button>
-						</form>
-						<p></p>
-						<a href="surprise.html" class='gold' target="_blank">Surprise!</a>
-						<p></p>
-						<audio autoplay loop muted id="background_song">
-							<source src="music/night cruising.m4a" type="audio/x-m4a">
-						  Your browser does not support the audio element.
-						</audio>
-						<div class="mute-button">
-							<p>
-								Click to unmute/mute
-							</p>
-							<img src="./icons/volume-mute-outline.svg" id="mute">
-						</div>
-					</div>
-				
-				</div>
+                                    </ul>
+                                    <!-- Prev button -->
+                                    <div class="slider--prev">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;"
+                                            xml:space="preserve">
+                                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                                                <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <!-- Next button -->
+                                    <div class="slider--next">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;"
+                                            xml:space="preserve">
+                                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                                                <path
+                                                    d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="l-section section">
+                            <div class="about">
+                                <div class="about--banner">
+                                    <h2>Education<br>and Work<br>Experience</h2>
+                                </div>
+                                <div class="past-experience">
+                                    <div class="experience-1 exp">
+                                        <p class="company job-info">Zhejiang University</p>
+                                        <p class="date job-info">Dec 2022 - Aug 2023</p>
+                                        <p class="role job-info">Full-Stack Developer</p>
+                                        <p>- Developed a data visualization board focusing on Common Criteria certifications. This entailed developing, operating, and testing applications with Python in VS Code.</p>
+                                        <p>- Collaborated closely with the product manager to ensure the alignment of products with the requirements.</p>
+                                        <p>- Applied Python (Beautiful Soup, Pandas, and Requests) to scrape data from websites of 4 countries, gather 4000+ rows of data, administered MySQL, and improved visual design with JavaScript.</p>
+                                        <p>- Automated the regular execution of web scraping to update data dynamically using Crontab.</p>
+                                        <p>- Implemented SQL for data analysis, querying databases for specific data, and implemented Apache Echart to display data in the form of charts.</p>
+                                    </div>
+                                    <div class="experience-2 exp">
+                                        <p class="company job-info">University of Birmingham Dubai</p>
+                                        <p class="date job-info">Sep 2023 - Sep 2023</p>
+                                        <p class="role job-info">MSc in Artificial Intelligence and Computer Science</p>
+                                        <p>- Key Modules: AI programming; Artificial Intelligence and Machine Learning; Computer Systems; Current Topics in AI and ML; Data Structures, Algorithms and Databases; Software Workshop.</p>
+                                        <p>- Hackathon Projects: competed in DubAI Student Challenge, formed a team, and collaboratively applied generative AI to build neural network models for image recognition and music genre classification.</p>
+                                    </div>
+                                    <div class="experience-3">
+                                        <p class="company job-info">University of Nottingham</p>
+                                        <p class="date job-info">Sep 2012 - Jul 2016</p>
+                                        <p class="role job-info">BA (Hons) in International Media and Communications Studies</p>
+                                        <p>- Key Modules: Communication and Culture; Communication and Technology; Cultural Analysis; Political Communication, Public Relations and Propaganda; Researching Culture, Film and Media; Self, Sign and Society; Visual Culture.</p>
+                                        <p>- Published article: Technological Assemblages within Human Society – IJICS Volume 4, 2015.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="l-section section">
+                            <div class="contact">
+                                <div class="contact--lockup">
+                                    <div class="modal">
+                                        <div class="modal--information">
+                                          <p>Academic City, Dubai, UAE</p>
+                                          <a href="mailto:hongbowei.bruce@gmail.com">hongbowei.bruce@gmail.com</a>
+                                          <a href="tel:+971585941866">+971 58 594 1866</a>
+                                        </div>
+                                        <ul class="modal--options">
+                                          <li><a href="https://github.com/hongbo-wei">GitHub</a></li>
+                                          <li><a href="https://www.linkedin.com/in/hongbo-wei/">LinkedIn</a></li>
+                                          <li><a href="https://twitter.com/hongbo_wei">Twitter</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="outer-nav">
+            <li class="is-active">Overview</li>
+            <li>Personal Projects</li>
+            <li>Education & Work</li>
+            <li>Contact</li>
+        </ul>
+    </div>
 
-				<div class='col-12 col-lg-6 text-white'>
-					
-					<div id="more">
-						<h2>Get to know me</h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
+    </script>
+    <script src="assets/js/functions-min.js"></script>
+</body>
 
-						<div>
-							<a href="engineering.html" class='btn btn-primary'>Engineering</a>
-							<a href="boxing.html" class="btn btn-primary">Boxing Life</a>
-							<a href="about.html" class="btn btn-primary">About Me</a>
-						</div>
-	
-						<div>
-							<ul class="social-links remove">
-								<li class="linkedin"><a href="https://www.linkedin.com/in/hongbo-wei"><i class="fa fa-linkedin"></i></a></li>
-								<li class="twitter"><a href="https://twitter.com/hongbo_wei"><i class="fa fa-twitter"></i></a></li>
-								<li class="github"><a href="https://github.com/hongbo-wei"><i class="fa fa-github"></i></a></li>
-								<li class="instagram"><a href="https://www.instagram.com/hongbo.thedragon.wei"><i class="fa fa-instagram"></i></a></li>
-								<li class="youtube"><a href="https://www.youtube.com/@hongbo-wei"><i class="fa fa-youtube"></i></a></li> 
-							</ul>
-						</div>
-					</div>
-
-				</div>
-
-				<div id="about">
-
-					<table class="vote">
-						<tbody>
-							<tr>
-								<td>
-									<button id="add_like"><i class="fa fa-thumbs-up"></i></button>
-								</td>
-								<td>
-									<button id="add_love"><i class="fa fa-heart"></i></button>
-								</td>
-							</tr>
-							<tr>
-								<td id="score_like">13</td>
-								<td id="score_love">14</td>
-							</tr>
-						</tbody>
-					</table>
-
-					<footer class="text-white">
-						Copyright &#169; <a href="https://sites.google.com/view/hongbo-wei">Hongbo</a>
-					</footer> 
-				</div>
-
-			</div>
-
-		</div>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
 </html>
