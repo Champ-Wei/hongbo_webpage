@@ -1,4 +1,4 @@
-.l-section.section .about {
+/* .l-section.section .about {
     width: calc(100% - 168px);
     max-width: calc(100% - 168px);
     margin-left: 168px;
@@ -11,9 +11,9 @@
 
 .l-section.section .about .about--banner h2 {
     margin-bottom: 10px;
-}
+} */
 
-.l-section.section .about .past-experience {
+/* .l-section.section .about .past-experience {
     display: flex;
     flex-direction: row;
     z-index: 2!important;
@@ -29,7 +29,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: bolder;
-}
+} */
 
 .contact:before {
     content: "";
