@@ -1428,6 +1428,14 @@ body {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)
 }
 
+.contact--lockup > .not-found > p > a {
+    /* display: block;
+    margin: 14px 0;
+    text-decoration: none; */
+    color: #fff;
+    /* font-weight: 700 */
+}
+
 .contact--lockup .modal--information p,
 .contact--lockup .modal--information a {
     display: block;
