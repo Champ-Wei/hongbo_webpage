@@ -49,3 +49,14 @@
 .contact--lockup {
     width: 75%
 }
+
+.space {
+    padding: 50px 0;
+}
+
+#clustrmap-container {
+    max-width: 40%;
+    max-height: 40%;
+    overflow: show;
+    margin: auto;
+}
