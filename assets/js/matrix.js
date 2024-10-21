@@ -8,9 +8,21 @@ let ctx = c.getContext("2d");
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
+// ----
+// Set characters for the matrix
+// Classic
+// let matrix = "01";
+
 //chinese characters - taken from the unicode charset
 let matrix = "黑客帝国abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()*&^%+-/~{[|`]}";
-// let matrix = "01";
+
+// Reloaded/Revolutions:
+// let matrix = 'モエヤキオカ7ケサスz152ヨタワ4ネヌナ98ヒ0ホア3ウ セ¦:"꞊ミラリ╌ツテニハソ▪—<>0|+*コシマムメ'
+
+// Resurrections:
+// let matrix = 'モエヤキオカ7ケサスz152ヨタワ4ネヌナ98ヒ0ホア3ウ セ¦:"꞊ミラリ╌ツテニハソコ—<ム0|*▪メシマ>+'
+// ----
+
 //converting the string into an array of single characters
 matrix = matrix.split("");
 
@@ -51,4 +63,30 @@ function draw()
     }
 }
 
-setInterval(draw, 35); //35
+setInterval(draw, 35); //default 35
+
+// Reference to the audio element
+const audio = document.getElementById("background-music");
+
+// Variable to track play/pause state
+let isPlaying = false;
+
+// Ensure the audio is playable on click
+function togglePlay() {
+    // If audio is paused, play it
+    if (audio.paused) {
+        audio.play().then(() => {
+            isPlaying = true;
+        }).catch(error => {
+            console.error("Playback failed:", error);
+        });
+    } 
+    // Otherwise, pause it
+    else {
+        audio.pause();
+        isPlaying = false;
+    }
+}
+
+// Add event listener to the entire page to toggle play/pause on click
+document.body.addEventListener("click", togglePlay);
