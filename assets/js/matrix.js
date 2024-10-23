@@ -68,23 +68,14 @@ setInterval(draw, 35); //default 35
 // Reference to the audio element
 const audio = document.getElementById("background-music");
 
-// Variable to track play/pause state
-let isPlaying = false;
-
 // Ensure the audio is playable on click
 function togglePlay() {
-    // If audio is paused, play it
     if (audio.paused) {
-        audio.play().then(() => {
-            isPlaying = true;
-        }).catch(error => {
+        audio.play().catch(error => {
             console.error("Playback failed:", error);
         });
-    } 
-    // Otherwise, pause it
-    else {
+    } else {
         audio.pause();
-        isPlaying = false;
     }
 }
 
